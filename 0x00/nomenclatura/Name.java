@@ -1,9 +1,10 @@
 public class Name {
     // Variáveis com nomes significativos
     public Date modifiedDate;
-    public List<Testcase> findAllTestcasesByUser(Name.User user) {
-        // Implementação
-    }
+    
+    public List<Testcase> findAllTestcasesByUser(Name.User user){};
+
+    
     // Declarações corretas
     public List<Account> AccountList;
     // Métodos sem prefixos desnecessários
@@ -20,9 +21,10 @@ public class Name {
         // Implementação
     }
     // Uma palavra por conceito
-     public void saveUser() {
-        // Implementação ajustada
-    }
+    //A
+    public saveUser(){}; saveAccount(){}; saveContract(){};
+
+
     public void createAccount() {
         // Implementação
     }

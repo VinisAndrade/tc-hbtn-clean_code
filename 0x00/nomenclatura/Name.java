@@ -1,41 +1,33 @@
 public class Name {
-    // Variáveis com nomes significativos
+    //variáveis que falam por si só 
+    //A
     public Date modifiedDate;
-    
     public List<Testcase> findAllTestcasesByUser(Name.User user){};
 
-    
-    // Declarações corretas
+    //Declarações corretas
+    //A
     public List<Account> AccountList;
-    // Métodos sem prefixos desnecessários
-    public void deleteUser(Name.User user) {
-        // Implementação
-    }
-    // Nomes claros para evitar mapas mentais
+
+    // Sem Prefixos
+    //B
+    public void deleteUser(Name.User user){};
+
+    // Evite mapa mental    
+    //B
     public URL url;
-    // Classes possuem nomes próprios; funções devem ter verbos
-    public class TableRepresentation {
-        // Implementação
-    }
-    public void saveCar() {
-        // Implementação
-    }
+
+    // Classe possui nomes próprios, funções devem ter verbos
+    //A
+    public class TableRepresent {};
+    public void saveCar(){};
+
     // Uma palavra por conceito
     //A
     public saveUser(){}; saveAccount(){}; saveContract(){};
 
 
-    public void createAccount() {
-        // Implementação
-    }
-    public void generateContract() {
-        // Implementação
-    }
-    // Use constantes e enums em vez de números mágicos
-    public static final int DAYS_IN_YEAR = 360;
-    public static final int HOURS_IN_WEEK = 168;
-    // Classe interna User como exemplo
-    public static class User {
-        // Implementação
-    }
+    //Use constants, enums instead of magic numbers, abbreviations
+    //B    
+    public final int DAYS_IN_YEAR = 360;
+    public final int HOURS_IN_WEEK = 168;
 }

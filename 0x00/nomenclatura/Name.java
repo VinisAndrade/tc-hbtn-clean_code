@@ -5,7 +5,7 @@ public class Name {
         // Implementação
     }
     // Declarações corretas
-    public List<Account> AccountList;
+    public List<Account> accountList;
     // Métodos sem prefixos desnecessários
     public void deleteUser(Name.User user) {
         // Implementação
@@ -13,7 +13,7 @@ public class Name {
     // Nomes claros para evitar mapas mentais
     public URL url;
     // Classes possuem nomes próprios; funções devem ter verbos
-    public class TableRepresenter {
+    public class TableRepresentation {
         // Implementação
     }
     public void saveCar() {

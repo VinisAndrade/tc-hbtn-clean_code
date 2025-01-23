@@ -15,6 +15,31 @@ public class Functions {
         return userService.save(user);
     }
 
+
+ // Arguments
+
+    //A
+
+    public void saveUser(User user){};
+
+
+
+    //  No side effects
+
+    //A
+
+    public User saveUser(User user){
+
+      if(user.isAdmin){
+
+      user.setRole(user);
+
+    }
+
+      return userRepository.save(user);
+
+
+
     // No side effects
     public User saveUser(User user){
         return userRepository.save(user);

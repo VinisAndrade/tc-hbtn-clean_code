@@ -5,7 +5,7 @@ public class Name {
         // Implementação
     }
     // Declarações corretas
-    public List<Account> accountList;
+    public List<Account> AccountList;
     // Métodos sem prefixos desnecessários
     public void deleteUser(Name.User user) {
         // Implementação
